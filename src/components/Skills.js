@@ -51,7 +51,6 @@ const skillCategories = [
 
 const Skills = () => {
   const sectionRef = useRef(null);
-  const activeRef = useRef(0);
 
   useEffect(() => {
     const el = sectionRef.current;
